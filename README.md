@@ -67,8 +67,11 @@ README.md  # Documentação principal
 ---
 ## 📷 Capturas de Tela
 
+### 1️⃣ Criando Bando de Dados
 ![Criando Banco de Dados no Azure](images/criando-banco.png)  
+### 2️⃣ Configurando o Servidor do Banco de Dados
 ![Configuração do Servidor](images/configuracao-servidor.png)  
+### 3️⃣ Banco de Dados Criado
 ![Banco criado](images/banco-criado.png)  
 
 ---
