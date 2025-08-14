@@ -40,24 +40,12 @@ O **Azure SQL Database** é um serviço de banco de dados relacional totalmente 
 - **Grupo de Recursos**: Criar ou selecionar um existente.
 - **Nome do Banco**: Escolher um nome único.
 - **Servidor**: Criar um novo (definir nome, região, usuário admin e senha).
-- **Camada de Serviço**: Selecionar a mais básica para estudos (ex.: "Basic" ou "Desenvolvimento/Teste").
+- **Ambiente de carga de trabalho**: Selecionar ("Desenvolvimento").
+- **Redundância do armazenamento de backup**:Quando você faz backups, pode escolher como e onde eles serão armazenados para garantir que, em caso de falha ou desastre, você consiga restaurar seus dados. As opções de redundância definem quão resistente o backup é a falhas ou desastres regionai
 
 ### 4️⃣ Revisar e Criar
 - Conferir todas as configurações.
 - Clicar em **"Revisar + Criar"** e depois em **"Criar"**.
-
-### 5️⃣ Conectar ao Banco
-- Usar **Azure Data Studio** ou **SQL Server Management Studio (SSMS)**.
-- Connection String (exemplo):
-Server=tcp:nomedoservidor.database.windows.net,1433;
-Initial Catalog=NomeDoBanco;
-Persist Security Info=False;
-User ID=usuarioadmin;
-Password=suaSenhaAqui;
-MultipleActiveResultSets=False;
-Encrypt=True;
-TrustServerCertificate=False;
-Connection Timeout=30;
 
 ---
 
@@ -71,7 +59,9 @@ Connection Timeout=30;
 
 
 ## 📂 Estrutura do Repositório
+
 /images  # Capturas de tela do processo
+
 README.md  # Documentação principal
 
 ---
@@ -79,7 +69,7 @@ README.md  # Documentação principal
 
 ![Criando Banco de Dados no Azure](images/criando-banco.png)  
 ![Configuração do Servidor](images/configuracao-servidor.png)  
-![Conexão ao Banco](images/conexao-banco.png)  
+![Banco criado](images/banco-criado.png)  
 
 ---
 
